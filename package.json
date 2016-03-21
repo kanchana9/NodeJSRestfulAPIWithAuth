@@ -1,0 +1,28 @@
+{
+  "name": "nodejsrestapi_auth",
+  "version": "1.0.0",
+  "description": "Sample NodeJS Restful API with Authentication and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanchana9/NodeJSRestfulAPIWithAuth.git"
+  },
+  "author": "Kanchana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanchana9/NodeJSRestfulAPIWithAuth/issues"
+  },
+  "homepage": "https://github.com/kanchana9/NodeJSRestfulAPIWithAuth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.6",
+    "morgan": "^1.7.0"
+  }
+}
